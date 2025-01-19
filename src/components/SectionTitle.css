@@ -1,0 +1,17 @@
+.section-head-box{
+    display:flex;
+    width:100vw;
+    height:100px;
+    justify-content: start;
+    align-items: center;
+    padding:15px 45px;
+    color:var(--faint-text-color );
+    font-size: 23px;
+}
+@media (max-width :600px)
+{
+    .section-head-box{
+        padding:10px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.blender-box{
+    display:inline-block;
+    min-height:100px;
+    width: 100vw;
+    background: linear-gradient(rgb(16, 117, 154),var(--intro-img-color-bottom));
+   margin: 0;
+   padding: 0;
+   border:0px solid white;
+  }
+  .blender-banner{
+    display:inline-block;
+    min-height:50px;
+    width: 100vw;
+    background: linear-gradient(rgb(0, 71, 142),rgb(1, 131, 179));
+   margin: 0;
+  }
+  

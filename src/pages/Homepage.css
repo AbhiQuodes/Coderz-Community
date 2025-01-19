@@ -1,0 +1,26 @@
+.wrapper {
+  /* background-color: var(--background-color); */
+  display: flex;
+  width: 100vw;
+  overflow-y: auto;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("./../images/coderzWebImg7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(360deg,var(--background-color),var(--shaded-background-color)); */
+}
+@media(max-width:600px){
+  .wrapper {
+    /* background-color: var(--background-color); */
+  
+    /* background-image: url("./../images/coderzWebImg6.png"); */
+    background-image: url("./../images/coderzWebImg7PhoneView.jpeg");
+
+    
+    /* background: linear-gradient(360deg,var(--background-color),var(--shaded-background-color)); */
+  }
+}
+

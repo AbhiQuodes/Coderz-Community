@@ -1,0 +1,128 @@
+.idea-section{
+    background: linear-gradient(#0e0f0fed,rgba(0, 0, 0, 0.656));
+    /* border-top: 1px solid var(--text-color); */
+    margin-bottom: 100px;
+    /* background-image: url('./../images/coderzWebImg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.project-idea-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 40px;
+    
+    /* overflow-y: auto; */
+    
+}
+.project-idea-box{
+    height: 100vh;
+    min-height: fit-content;
+    display:flex;
+    max-width:75%;
+    justify-content:space-evenly ;
+    width: fit-content;
+    gap:60px;
+    flex-wrap: wrap;
+    padding:60px 0px;
+}
+.each-idea-project-box{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    gap:0px;
+    max-width:300px;
+    min-width: 250px;
+    width:95%;
+    height :400px;
+    backdrop-filter: blur(10px);
+    min-height:fit-content;
+}
+.project-idea-img{
+    width:100%;
+    height:50%;
+
+}
+.project-idea-title,.project-idea-intro{
+    text-align: center;
+    color:var(--faint-text-color);
+    padding:10px;
+    line-height: 1.2;
+
+}
+.project-idea-title{
+    color:var(--text-color);
+}
+
+
+.flip-btn{
+    position: absolute;
+    bottom:0px;
+    right:10px;
+    border-width: 0px;
+    outline: none;
+    background: transparent;
+    width:fit-content;
+    height:0px;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.each-idea-project-box:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.each-idea-project-box:hover .flip-btn{
+    height:40px;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    .project-idea-box{
+        max-width:90%;
+    
+    }
+    .project-idea-container{
+        
+        padding:15px;
+        font-size: 0.89em;
+        /* overflow-y: auto; */
+        
+    }
+
+    .flip-btn{
+       
+        display: inline-block;
+    
+    }
+
+    .each-idea-project-box{
+        display:flex;
+        flex-direction: row;
+        height:150px;
+        box-shadow: 0px 0px 10px black;
+        box-shadow:0px 0px 8px white;
+        border-radius: 15px;
+ 
+
+
+     
+    }
+
+    .project-idea-img{
+        width:55%;
+        height:100%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    
+    }
+    .project-idea-title{
+        padding-top:25%;
+    }
+}

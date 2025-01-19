@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #a4ba83;
+  --faint-text-color :rgb(214, 229, 224);
+
+  --secondary-color: #c0cea1;
+  --intro-img-color-top:rgba(1, 67, 142, 0.93);
+  --intro-img-color-bottom: #2a5033;
+  --text-color: #00ffbb;
+  --background-color: #2a5033;
+  --shaded-background-color: #160305;
+
+}
+
+::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(216, 230, 230);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(41, 40, 35);
+  border-radius: 2px;
+}
